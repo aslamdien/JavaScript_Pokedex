@@ -41,11 +41,11 @@ function getPokemonInfo(url) {
         ".pokemon-pic"
       ).innerHTML = `<img src = "${data.sprites.other["official-artwork"].front_default} ">`;
       document.querySelector(".pokemon-info").innerHTML = `<div>
-    <p>Types: <span>${data.types[0].type.name}</span></p>
+    <p><strong>Types: </strong> <span>${data.types[0].type.name}</span></p>
     <br>
-    <p>Abilities: <span>${data.abilities[0].ability.name}, ${data.abilities[1].ability.name}</span></p>
+    <p><strong>Abilities: </strong><span>${data.abilities[0].ability.name}, ${data.abilities[1].ability.name}</span></p>
     <br>
-    <p>Moves: <span>${data.moves[0].move.name}, ${data.moves[1].move.name}, ${data.moves[2].move.name}, ${data.moves[3].move.name}</span></p>
+    <p><strong>Moves: </strong><span>${data.moves[0].move.name}, ${data.moves[1].move.name}, ${data.moves[2].move.name}, ${data.moves[3].move.name}</span></p>
     </div>`;
     });
 }

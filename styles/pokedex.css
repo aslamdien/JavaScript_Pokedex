@@ -58,6 +58,7 @@ button {
   height: 40px;
   width: 100px;
   margin-right: 10px;
+  text-transform: capitalize;
 }
 
 button:hover {
@@ -72,4 +73,13 @@ p {
   position: relative;
   top: 200px;
   right: 30px;
+  text-transform: capitalize;
+}
+
+h2{
+  text-transform: capitalize;
+}
+
+h1{
+  font-family: ;
 }
