@@ -7,6 +7,8 @@
 body {
   font-family: sans-serif;
   background-image: url(../images/xLZrFev.webp);
+  background-size: fit-content;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +20,7 @@ body {
   background-image: url(../images/5818315.png);
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 650px;
+  background-size: 590px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,11 +40,10 @@ body {
 .pokemon-list-container {
   display: block;
   position: relative;
-  top: 45px;
-  margin-right: 630px;
-  margin-left: 640px;
-  margin-top: 200px;
-  padding-bottom: 19%;
+  top: 214px;
+  padding-bottom: 455px;
+  width: 564px;
+  left: 263px;
 }
 
 img {
@@ -55,9 +56,9 @@ button {
   background: none;
   border: none;
   border-bottom: 2px solid #1ec3dd;
-  height: 40px;
-  width: 100px;
-  margin-right: 10px;
+  height: 37px;
+  width: 98px;
+  margin-right: 8px;
   text-transform: capitalize;
 }
 

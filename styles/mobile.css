@@ -1,9 +1,13 @@
-@media screen and (max-width: 1819px){
-    .pokemon-list-container{
-        margin-right: 600px;
-    }
+@media  screen and (max-width: 1810px){
+  .pokemon-list-container{
+    left:14px;
+  }
 }
-
+/* @media screen and (max-width: 1790px){
+  .pokemon-list-container{
+   
+}
+}
 @media screen and (max-width: 800px){
     .pokemon-list-container{
         margin-right: 80px;
@@ -19,12 +23,10 @@
     margin-left: 86px;
     padding-bottom: 85%;
     }
-}
+} */
 
 @media screen and (max-width: 700px){
     .pokemon-list-container{
-    margin-right: 9px;
-    margin-left: 34px;
     padding-bottom: 85%;
     }
 }
@@ -52,11 +54,9 @@
   .pokemon-list-container {
     top: 150px;
     margin-top: 0px;
-    padding-bottom: 85%;
-    left: 17px;
-    margin-right: 0;
-    margin-left: 0;
-    margin-top: 0;
+    padding-bottom: 75%;
+    left: 21px;
+    width: 370px;
   }
 
   p{
@@ -87,16 +87,13 @@
 
 @media screen and (max-width: 500px){
     .pokemon-list-container{
-    margin-right: 32px;
-    margin-left: 23px;
     padding-bottom: 85%;
     }
 }
 
 @media screen and (max-width: 400px){
     .pokemon-list-container{
-    margin-right: 10px;
-    margin-left: 0px;
+
     padding-bottom: 85%;
     }
 
